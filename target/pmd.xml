@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2025-11-29T05:31:48.359">
+<file name="D:\Kostyan\Documents\Всякое ВУЗовское\Тестирование и верификация программного обеспечения\GunShop\src\main\java\org\example\WeaponStoreSystem.java">
+<violation beginline="6" endline="56" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="WeaponStoreSystem" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="6" endline="56" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" class="Weapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Weapon' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=8, WMC=13)
+</violation>
+<violation beginline="7" endline="7" begincolumn="20" endcolumn="21" rule="ShortVariable" ruleset="Code Style" class="Weapon" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="7" endline="7" begincolumn="20" endcolumn="21" rule="ImmutableField" ruleset="Design" class="Weapon" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'id' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="8" endline="8" begincolumn="20" endcolumn="23" rule="ImmutableField" ruleset="Design" class="Weapon" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'name' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="9" endline="9" begincolumn="20" endcolumn="23" rule="ImmutableField" ruleset="Design" class="Weapon" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'type' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="10" endline="10" begincolumn="20" endcolumn="26" rule="ImmutableField" ruleset="Design" class="Weapon" variable="caliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'caliber' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="24" rule="ImmutableField" ruleset="Design" class="Weapon" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'price' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="15" endline="15" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="Weapon" method="Weapon" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="15" endline="15" begincolumn="56" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="Weapon" variable="caliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'caliber' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="19" endcolumn="27" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="Weapon" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="30" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="Weapon" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="72" endcolumn="83" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="Weapon" variable="price" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'price' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="86" endcolumn="97" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="Weapon" variable="quantity" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'quantity' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="43" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="Weapon" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'type' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="setQuantity" variable="quantity" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'quantity' is not assigned and could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="31" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="decreaseStock" variable="amount" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'amount' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="31" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Weapon" method="increaseStock" variable="amount" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'amount' is not assigned and could be declared final
+</violation>
+<violation beginline="58" endline="98" begincolumn="1" endcolumn="1" rule="DataClass" ruleset="Design" class="Order" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#dataclass" priority="3">
+The class 'Order' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=5, WMC=9)
+</violation>
+<violation beginline="59" endline="59" begincolumn="20" endcolumn="26" rule="ImmutableField" ruleset="Design" class="Order" variable="orderId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'orderId' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="60" endline="60" begincolumn="29" endcolumn="33" rule="ImmutableField" ruleset="Design" class="Order" variable="items" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'items' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="62" endline="62" begincolumn="20" endcolumn="31" rule="ImmutableField" ruleset="Design" class="Order" variable="customerName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'customerName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="63" endline="63" begincolumn="20" endcolumn="23" rule="ImmutableField" ruleset="Design" class="Order" variable="date" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'date' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="65" endline="65" begincolumn="34" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Order" method="Order" variable="customerName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerName' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="55" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Order" method="Order" variable="date" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'date' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="18" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Order" method="Order" variable="orderId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'orderId' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="40" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Order" method="addItem" variable="quantity" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'quantity' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="25" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Order" method="addItem" variable="weapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'weapon' is not assigned and could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="23" endcolumn="24" rule="ShortVariable" ruleset="Code Style" class="Order" method="toString" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like sb
+</violation>
+<violation beginline="86" endline="86" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Order" method="toString" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sb' could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="9" endcolumn="90" rule="ConsecutiveAppendsShouldReuse" ruleset="Performance" class="Order" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#consecutiveappendsshouldreuse" priority="3">
+StringBuffer (or StringBuilder).append is called consecutively without reusing the target variable.
+</violation>
+<violation beginline="89" endline="89" begincolumn="14" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Order" method="toString" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'item' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="21" endcolumn="46" rule="LawOfDemeter" ruleset="Design" class="Order" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="93" endline="93" begincolumn="21" endcolumn="47" rule="LawOfDemeter" ruleset="Design" class="Order" method="toString" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="101" endline="101" begincolumn="20" endcolumn="25" rule="ImmutableField" ruleset="Design" class="OrderItem" variable="weapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'weapon' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="102" endline="102" begincolumn="17" endcolumn="24" rule="ImmutableField" ruleset="Design" class="OrderItem" variable="quantity" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'quantity' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="104" endline="104" begincolumn="37" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="OrderItem" method="OrderItem" variable="quantity" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'quantity' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="22" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="OrderItem" method="OrderItem" variable="weapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'weapon' is not assigned and could be declared final
+</violation>
+<violation beginline="113" endline="399" begincolumn="1" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Design" class="WeaponStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+The class 'WeaponStore' has a Modified Cyclomatic Complexity of 4 (Highest = 10).
+</violation>
+<violation beginline="113" endline="399" begincolumn="1" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Design" class="WeaponStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'WeaponStore' has a Standard Cyclomatic Complexity of 4 (Highest = 10).
+</violation>
+<violation beginline="113" endline="399" begincolumn="19" endcolumn="1" rule="TooManyMethods" ruleset="Design" class="WeaponStore" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="114" endline="114" begincolumn="26" endcolumn="34" rule="ImmutableField" ruleset="Design" class="WeaponStore" variable="inventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'inventory' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="115" endline="115" begincolumn="25" endcolumn="30" rule="ImmutableField" ruleset="Design" class="WeaponStore" variable="orders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'orders' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="126" endline="126" begincolumn="86" endcolumn="92" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" class="WeaponStore" method="initializeInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 25000.0 should separate every third digit with an underscore
+</violation>
+<violation beginline="127" endline="127" begincolumn="87" endcolumn="93" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" class="WeaponStore" method="initializeInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 45000.0 should separate every third digit with an underscore
+</violation>
+<violation beginline="128" endline="128" begincolumn="73" endcolumn="79" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" class="WeaponStore" method="initializeInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 35000.0 should separate every third digit with an underscore
+</violation>
+<violation beginline="129" endline="129" begincolumn="77" endcolumn="83" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" class="WeaponStore" method="initializeInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 32000.0 should separate every third digit with an underscore
+</violation>
+<violation beginline="130" endline="130" begincolumn="87" endcolumn="93" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" class="WeaponStore" method="initializeInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 85000.0 should separate every third digit with an underscore
+</violation>
+<violation beginline="131" endline="131" begincolumn="82" endcolumn="88" rule="UseUnderscoresInNumericLiterals" ruleset="Code Style" class="WeaponStore" method="initializeInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#useunderscoresinnumericliterals" priority="3">
+Number 55000.0 should separate every third digit with an underscore
+</violation>
+<violation beginline="135" endline="135" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="137" endline="137" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="141" endline="141" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="displayInventory" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="144" endline="144" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayInventory" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="148" endline="148" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="149" endline="151" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="displayAvailableWeapons" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'available' could be declared final
+</violation>
+<violation beginline="149" endline="151" begincolumn="34" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="149" endline="151" begincolumn="34" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="153" endline="153" begincolumn="13" endcolumn="31" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="154" endline="154" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="158" endline="158" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="displayAvailableWeapons" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="159" endline="159" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="161" endline="161" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayAvailableWeapons" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="164" endline="164" begincolumn="30" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByType" variable="type" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'type' is not assigned and could be declared final
+</violation>
+<violation beginline="165" endline="165" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="166" endline="168" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByType" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'filtered' could be declared final
+</violation>
+<violation beginline="166" endline="168" begincolumn="33" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="166" endline="168" begincolumn="33" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="170" endline="170" begincolumn="13" endcolumn="30" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="171" endline="171" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="175" endline="175" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByType" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="176" endline="176" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="178" endline="178" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByType" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="181" endline="181" begincolumn="33" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByCaliber" variable="caliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'caliber' is not assigned and could be declared final
+</violation>
+<violation beginline="182" endline="182" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="183" endline="185" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByCaliber" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'filtered' could be declared final
+</violation>
+<violation beginline="183" endline="185" begincolumn="33" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="183" endline="185" begincolumn="33" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="187" endline="187" begincolumn="13" endcolumn="30" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="188" endline="188" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="192" endline="192" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByCaliber" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="193" endline="193" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="195" endline="195" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByCaliber" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="198" endline="198" begincolumn="53" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByPriceRange" variable="maxPrice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'maxPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="198" endline="198" begincolumn="36" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByPriceRange" variable="minPrice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'minPrice' is not assigned and could be declared final
+</violation>
+<violation beginline="199" endline="199" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="200" endline="202" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByPriceRange" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'filtered' could be declared final
+</violation>
+<violation beginline="200" endline="202" begincolumn="33" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="200" endline="202" begincolumn="33" endcolumn="45" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="204" endline="204" begincolumn="13" endcolumn="30" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="205" endline="205" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="209" endline="209" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="filterByPriceRange" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="210" endline="210" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="212" endline="212" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="filterByPriceRange" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="215" endline="215" begincolumn="41" endcolumn="42" rule="ShortVariable" ruleset="Code Style" class="WeaponStore" method="findWeaponById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="215" endline="215" begincolumn="34" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="findWeaponById" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="216" endline="216" begincolumn="14" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="findWeaponById" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="217" endline="217" begincolumn="17" endcolumn="41" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="findWeaponById" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="218" endline="218" begincolumn="17" endcolumn="30" rule="OnlyOneReturn" ruleset="Code Style" class="WeaponStore" method="findWeaponById" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="224" endline="224" begincolumn="28" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="customerName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'customerName' is not assigned and could be declared final
+</violation>
+<violation beginline="224" endline="300" begincolumn="12" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#modifiedcyclomaticcomplexity" priority="3">
+The method 'placeOrder' has a Modified Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="224" endline="300" begincolumn="12" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'placeOrder' has a Standard Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="224" endline="300" begincolumn="12" endcolumn="5" rule="CognitiveComplexity" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cognitivecomplexity" priority="3">
+The method 'placeOrder(String)' has a cognitive complexity of 15, current threshold is 15
+</violation>
+<violation beginline="224" endline="300" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'placeOrder(String)' has a cyclomatic complexity of 10.
+</violation>
+<violation beginline="225" endline="225" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'scanner' could be declared final
+</violation>
+<violation beginline="226" endline="226" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'cart' could be declared final
+</violation>
+<violation beginline="227" endline="227" begincolumn="9" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'quantities' could be declared final
+</violation>
+<violation beginline="230" endline="230" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="234" endline="234" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="235" endline="235" begincolumn="13" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'itemId' could be declared final
+</violation>
+<violation beginline="235" endline="235" begincolumn="29" endcolumn="53" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="237" endline="237" begincolumn="17" endcolumn="47" rule="LiteralsFirstInComparisons" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="237" endline="237" begincolumn="17" endcolumn="47" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="237" endline="237" begincolumn="17" endcolumn="47" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="241" endline="241" begincolumn="13" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="243" endline="243" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="247" endline="247" begincolumn="18" endcolumn="35" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="248" endline="248" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="252" endline="252" begincolumn="65" endcolumn="84" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="252" endline="252" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="255" endline="255" begincolumn="45" endcolumn="69" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="257" endline="257" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="260" endline="260" begincolumn="32" endcolumn="51" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="261" endline="261" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="265" endline="265" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="271" endline="271" begincolumn="22" endcolumn="38" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="273" endline="273" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="274" endline="274" begincolumn="21" endcolumn="36" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="274" endline="274" begincolumn="49" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="275" endline="275" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="279" endline="279" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="284" endline="284" begincolumn="9" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'orderId' could be declared final
+</violation>
+<violation beginline="285" endline="285" begincolumn="9" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'date' could be declared final
+</violation>
+<violation beginline="285" endline="285" begincolumn="23" endcolumn="58" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="285" endline="285" begincolumn="23" endcolumn="58" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (static property access)
+</violation>
+<violation beginline="286" endline="286" begincolumn="9" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'order' could be declared final
+</violation>
+<violation beginline="290" endline="290" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'weapon' could be declared final
+</violation>
+<violation beginline="291" endline="291" begincolumn="13" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="placeOrder" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'quantity' could be declared final
+</violation>
+<violation beginline="293" endline="293" begincolumn="13" endcolumn="42" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="297" endline="297" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="298" endline="298" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="299" endline="299" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="placeOrder" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="303" endline="303" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="305" endline="305" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="307" endline="307" begincolumn="18" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="displayOrders" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'order' could be declared final
+</violation>
+<violation beginline="308" endline="308" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="309" endline="309" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="312" endline="312" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="displayOrders" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="316" endline="316" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="319" endline="319" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="325" endline="325" begincolumn="9" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="generateSalesReport" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'salesByType' could be declared final
+</violation>
+<violation beginline="327" endline="327" begincolumn="14" endcolumn="24" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="generateSalesReport" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'order' could be declared final
+</violation>
+<violation beginline="330" endline="330" begincolumn="18" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="generateSalesReport" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'item' could be declared final
+</violation>
+<violation beginline="332" endline="332" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="generateSalesReport" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'type' could be declared final
+</violation>
+<violation beginline="332" endline="332" begincolumn="31" endcolumn="56" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="337" endline="337" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="338" endline="338" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="339" endline="339" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="341" endline="343" begincolumn="9" endcolumn="111" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="341" endline="343" begincolumn="9" endcolumn="111" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="341" endline="343" begincolumn="9" endcolumn="111" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="342" endline="342" begincolumn="25" endcolumn="90" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="342" endline="342" begincolumn="25" endcolumn="90" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="343" endline="343" begincolumn="35" endcolumn="52" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="345" endline="345" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="generateSalesReport" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="349" endline="349" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'scanner' could be declared final
+</violation>
+<violation beginline="351" endline="351" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="352" endline="352" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'name' could be declared final
+</violation>
+<violation beginline="352" endline="352" begincolumn="23" endcolumn="47" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="354" endline="354" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="355" endline="355" begincolumn="9" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'type' could be declared final
+</violation>
+<violation beginline="355" endline="355" begincolumn="23" endcolumn="47" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="357" endline="357" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="358" endline="358" begincolumn="9" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'caliber' could be declared final
+</violation>
+<violation beginline="358" endline="358" begincolumn="26" endcolumn="50" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="363" endline="363" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="364" endline="364" begincolumn="44" endcolumn="68" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="366" endline="366" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="371" endline="371" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="378" endline="378" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="379" endline="379" begincolumn="45" endcolumn="69" rule="LawOfDemeter" ruleset="Design" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="381" endline="381" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="386" endline="386" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="391" endline="391" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="391" endline="391" begincolumn="9" endcolumn="69" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'id' could be declared final
+</violation>
+<violation beginline="393" endline="393" begincolumn="9" endcolumn="79" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStore" method="addNewWeapon" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'newWeapon' could be declared final
+</violation>
+<violation beginline="396" endline="396" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="397" endline="397" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStore" method="addNewWeapon" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="401" endline="475" begincolumn="32" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="WeaponStoreSystem" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="401" endline="475" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Design" class="WeaponStoreSystem" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+The class 'WeaponStoreSystem' has a Standard Cyclomatic Complexity of 14 (Highest = 13).
+</violation>
+<violation beginline="402" endline="402" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="402" endline="474" begincolumn="19" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#stdcyclomaticcomplexity" priority="3">
+The method 'main' has a Standard Cyclomatic Complexity of 13.
+</violation>
+<violation beginline="402" endline="474" begincolumn="19" endcolumn="5" rule="NcssCount" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#ncsscount" priority="3">
+The method 'main(String)' has a NCSS line count of 64.
+</violation>
+<violation beginline="402" endline="474" begincolumn="19" endcolumn="5" rule="CyclomaticComplexity" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#cyclomaticcomplexity" priority="3">
+The method 'main(String)' has a cyclomatic complexity of 13.
+</violation>
+<violation beginline="403" endline="403" begincolumn="9" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'store' could be declared final
+</violation>
+<violation beginline="404" endline="404" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'scanner' could be declared final
+</violation>
+<violation beginline="406" endline="406" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="409" endline="409" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="410" endline="410" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="411" endline="411" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="412" endline="412" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="413" endline="413" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="414" endline="414" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="415" endline="415" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="416" endline="416" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="417" endline="417" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="418" endline="418" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="419" endline="419" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="420" endline="420" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="422" endline="422" begincolumn="13" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'choice' could be declared final
+</violation>
+<violation beginline="422" endline="422" begincolumn="29" endcolumn="53" rule="LawOfDemeter" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="432" endline="432" begincolumn="21" endcolumn="36" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="433" endline="433" begincolumn="21" endcolumn="59" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'type' could be declared final
+</violation>
+<violation beginline="433" endline="433" begincolumn="35" endcolumn="59" rule="LawOfDemeter" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="437" endline="437" begincolumn="21" endcolumn="36" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="438" endline="438" begincolumn="21" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'caliber' could be declared final
+</violation>
+<violation beginline="438" endline="438" begincolumn="38" endcolumn="62" rule="LawOfDemeter" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="443" endline="443" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="444" endline="444" begincolumn="25" endcolumn="87" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'minPrice' could be declared final
+</violation>
+<violation beginline="444" endline="444" begincolumn="62" endcolumn="86" rule="LawOfDemeter" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="445" endline="445" begincolumn="25" endcolumn="40" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="446" endline="446" begincolumn="25" endcolumn="87" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'maxPrice' could be declared final
+</violation>
+<violation beginline="446" endline="446" begincolumn="62" endcolumn="86" rule="LawOfDemeter" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="449" endline="449" begincolumn="25" endcolumn="42" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="456" endline="456" begincolumn="21" endcolumn="36" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="457" endline="457" begincolumn="21" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="WeaponStoreSystem" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'customerName' could be declared final
+</violation>
+<violation beginline="457" endline="457" begincolumn="43" endcolumn="67" rule="LawOfDemeter" ruleset="Design" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="467" endline="467" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="471" endline="471" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" class="WeaponStoreSystem" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
